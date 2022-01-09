@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<phpunit bootstrap="vendor/autoload.php">
+	<!-- Add any additional test suites you want to run here -->
+	<testsuites>
+		<testsuite name="tests">
+			<directory>tests</directory>
+		</testsuite>
+	</testsuites>
+</phpunit>
