@@ -8,9 +8,9 @@ Before you start:
 
 String Calculator
 =================
-1. Create a simple String calculator with a method signature:
+1. Create a StringCalculator class with this method:
 
-   int Add(string numbers)
+   function add($text: string): int {}
 
    The method can take up to two numbers, separated by commas, and will return
    their sum.
@@ -25,9 +25,9 @@ String Calculator
       to write tests you did not think about
     - Remember to refactor after each passing test
 
-2. Allow the Add method to handle an unknown amount of numbers
+2. Allow the `add` method to handle an unknown amount of numbers
 
-3. Allow the Add method to handle new lines between numbers (instead of commas).
+3. Allow the `add` method to handle new lines between numbers (instead of commas).
 
    a. the following input is ok: “1\n2,3” (will equal 6)
    b. the following input is NOT ok: “1,\n” (not need to prove it - just clarifying)
@@ -41,7 +41,7 @@ String Calculator
    b. the first line is optional. all existing scenarios should still be
       supported
 
-5. Calling Add with a negative number will throw an exception “negatives not
+5. Calling `add` with a negative number will throw an exception “negatives not
    allowed” - and the negative that was passed. 
    if there are multiple negatives, show all of them in the exception message.
 
